@@ -1,0 +1,20 @@
+{
+  "name": "swagger-ui-with-postman",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Swagger UI with Postman",
+  "main": "index.js",
+  "author": "Mehmet Can Vardar",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "postman2openapi": "^1.1.0",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
